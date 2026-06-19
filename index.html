@@ -1,32 +1,24 @@
 <!DOCTYPE html>
-<html lang="zh‑CN">
+<html lang="zh-CN">
 <head>
-<meta charset="UTF‑8">
-<title>Ubuntu系统完整备份下载</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial‑scale=1">
+<title>Ubuntu系统恢复包下载与安装教程</title>
 <style>
-body{background:#222;color:#fff;font‑family:微软雅黑;text‑align:center;margin‑top:80px}
-a{display:inline‑block;padding:16px 32px;background:#2383e2;color:#fff;text‑decoration:none;border‑radius:8px;font‑size:18px}
-pre{background:#333;padding:20px;text‑align:left;white‑space:pre‑wrap;margin:30px;border‑radius:6px}
+body{background:#222;color:#fff;font-family:Arial;margin:2rem}
+a{display:inline‑block;padding:12px 24px;background:#0088ff;color:#fff;text‑decoration:none;border‑radius:6px;font‑size:18px}
+pre{background:#333;padding:1rem;border‑radius:6px;white‑space:pre‑wrap}
 </style>
 </head>
 <body>
-<h1>Ubuntu.tar.gz 完整系统备份</h1>
-<p>压缩包内置猜数字、计算器Python源代码</p>
-<br>
-<a href="https://1849307185.share.123865.com/123pan/xf2Evd-5x1oh" target="_blank">下载Ubuntu.tar.gz完整系统备份</a>
-<h2>部署恢复教程</h2>
-<pre>
-1.下载 Ubuntu.tar.gz，将文件移动到目录
-/storage/emulated/0/xinhao/data/
-
-2.打开 ZeroTermux，按下音量上键，选择备份/恢复选项
-3.选择恢复，选中 Ubuntu.tar.gz
-4.输入新容器名称：Ubuntu，等待自动恢复完成
-
-5.再次按下音量上键，进入容器切换，选中 Ubuntu
-6.重启 ZeroTermux，在终端输入下面命令
-curl ; bash -c "$(curl -L gitee.com/mo2/linux/raw/2/2)"
-7.选择 proot容器 → 当前已安装容器列表 → 第一个容器，点击启动，即可进入Ubuntu系统
-</pre>
+<h2>Ubuntu.tar.gz 文件下载</h2>
+<p>点击下方按钮下载恢复包</p>
+<a href="https://1849307185.share.123865.com/123pan/xf2Evd-5x1oh">下载Ubuntu.tar.gz</a>
+<h2>安装步骤</h2>
+<pre>1.将下载好的Ubuntu.tar.gz放到 /storage/emulated/0/xinhao/data/
+2.打开ZeroTermux，按音量上键，选择备份恢复，导入该压缩包
+3.设置容器名称Ubuntu，等待解压完成
+4.切换到此容器，运行部署脚本启动系统
+命令：curl ; bash -c "$(curl -L gitee.com/mo2/linux/raw/2/2)"</pre>
 </body>
 </html>
